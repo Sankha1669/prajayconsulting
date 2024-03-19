@@ -1,0 +1,11 @@
+.B2BLead h1{
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+.B2BLead p{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+}

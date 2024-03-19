@@ -1,0 +1,20 @@
+.WhyChoose{
+    background-image: url(../../../Assets/Images/WhyChoose.jpg);
+    min-height: 60vh;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: linear-gradient(90deg, #000000 55%, rgba(255, 255, 255, 0) 100%), url(https://straight-in.co/wp-content/uploads/2021/12/young-group-of-business-colleagues-working-together-banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-width: 0px 0px 0px 0px;
+    border-color: #e2e2e2;
+    border-style: solid;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.WhyChoose h2{
+    font-size: 40px;
+    font-weight: 700;
+}

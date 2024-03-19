@@ -1,0 +1,21 @@
+.OurBlog h1 {
+    font-size: 54px;
+     font-weight: 700;
+}
+
+.OurBlog p{
+    font-size: 18px;
+}
+
+.OurBlog .card{
+    border-radius: 50px;
+}
+
+.OurBlog input {
+    border: 0;
+    outline: none;
+}
+
+.OurBlog .form-control:focus{
+    box-shadow: none;
+}

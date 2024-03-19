@@ -1,0 +1,17 @@
+.GeneratedLeads h2{
+    font-size: 40px;
+    color: #000;
+    font-weight: 700;
+}
+
+.GeneratedLeads.bg-light{
+    background-color: #dbdbdb !important;
+}
+
+.GeneratedLeads .react-multi-carousel-track{
+    align-items: center !important;
+}
+
+.GeneratedLeads .react-multi-carousel-item{
+    text-align: center !important;
+}

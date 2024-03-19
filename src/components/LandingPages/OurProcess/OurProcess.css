@@ -1,0 +1,40 @@
+.OurProcess h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+}
+
+.OurProcess  .card{
+    min-height: 170px !important;
+}
+
+.OurProcess  .card p{
+    margin-top: 10px !important; 
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+    line-height: 22px;
+}
+
+.OurProcess .card:hover{
+    transform: translateY(-10px);
+    transition: .3s ease-in;
+}
+
+.OurProcess .card:hover p{
+    transition: .3s ease-in;
+    color: rgb(13,110,253);
+}
+
+.OurProcess .sylineGraphics{
+    background-image: url(../../../Assets/Images/skyline-graphic.png);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media (max-width:575px) { 
+    .OurProcess .col{
+        flex: none;
+    }
+}

@@ -1,0 +1,92 @@
+.bannerContainer{
+    background-color: rgba(0,0,0,0.75);
+    background-image: url(../../../Assets/Images/linkedin-on-phone.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    border-width: 0px 0px 0px 0px;
+    border-color: #e2e2e2;
+    border-style: solid;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 98vh;
+}
+
+.bannerContent{
+    text-align: center;
+}
+
+.bannerContent h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.bannerContent p{
+    color: #fff;
+    font-size: 27px;
+    line-height: 34px;
+}
+
+.bannerContent .btn-outline-primary{
+    color: #fff;
+    border: 0;
+    border-bottom: 1px solid #fff !important; 
+    padding: 15px 40px;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+.bannerContent .btn-outline-primary:hover{
+    background-color: transparent;
+    color: #0d6efd;
+    border-bottom: 1px  solid #0d6efd !important;
+}
+
+@media (max-width:575px){
+    .bannerContent .btn-outline-primary{
+      padding: 15px 30px !important;
+    }
+    .bannerContentContainer{
+        padding: 30px 10px !important;
+    }
+    .bannerContentContainer .position-absolute {
+        position: static !important;
+    }
+    .bannerContentContainer .translate-middle{
+        transform: none !important;
+    }
+    .bannerContent h1{
+        font-size: 35px !important;
+    }
+    .bannerContent p{
+        font-size:22px !important;
+    }
+    .bannerContainer{
+        min-height: 50vh !important;
+    }
+   }
+
+   @media (max-width:1024px){
+    .bannerContentContainer{
+        padding: 100px 10px !important;
+    }
+    .bannerContentContainer .position-absolute {
+        position: static !important;
+    }
+    .bannerContentContainer .translate-middle{
+        transform: none !important;
+    }
+    .bannerContent h1{
+        font-size: 50px !important;
+    }
+    .bannerContent p{
+        font-size:27px !important;
+    }
+    .bannerContainer{
+        min-height: 37vh !important;
+    }
+   }

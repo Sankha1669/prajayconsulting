@@ -1,0 +1,35 @@
+.Cards .card{
+    min-height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Cards i::before{
+    color: #000;
+    font-size: 38px;
+}
+
+.Cards p{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 35px;
+    color: #000;
+    margin-top: 12px !important;
+}
+
+.Cards .card:hover > p{
+    color: #fff;
+    transition: .3s ease-in;
+}
+
+.Cards .card:hover i::before{
+    color: #fff;
+    transition: .3s ease-in;
+}
+
+.Cards .card:hover{
+    background-color:#ff9300;
+    transition: .3s ease-in;
+}
+

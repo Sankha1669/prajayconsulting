@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serifb !important;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    background-color: rgb(13,110,253); /* or add it to the track */
+    border-radius: 10px;
+  }
+  
+  /* Add a thumb */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(3, 3, 95);
+    border-radius: 10px;
+    height: 2px  !important;
+  }
+

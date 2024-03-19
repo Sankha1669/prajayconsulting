@@ -1,0 +1,26 @@
+.OurBlogCards h4{
+    font-size: 28px;
+    font-weight: 500 !important;
+    color: #0d6efd;
+}
+
+.OurBlogCards h4:hover{
+    color: #ff9300;
+    transition: .2s ease-in;
+    cursor: pointer;
+}
+
+.OurBlogCards p{
+    color: rgb(112, 112, 112);
+    font-size: 16px;
+}
+
+.OurBlogCards .links a{
+    color: rgb(112, 112, 112);
+    text-decoration: none;
+    transition: .2s ease-in;
+}
+
+.OurBlogCards .links a:hover{
+    color: #0d6efd !important;
+}

@@ -1,0 +1,13 @@
+.B2BImportLead h2{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.B2BImportLead p{
+    font-size: 16px;
+}
+
+.B2BImportLead .subtitle{
+    font-size: 35px;
+}

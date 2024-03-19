@@ -1,0 +1,30 @@
+.OurClients h2{
+    font-size: 40px;
+    line-height: 35px;
+}
+
+.OurClients .carousel-indicators{
+    bottom: -30px !important;
+}
+.OurClients .carousel-control-prev,.carousel-control-next{
+    display: none !important;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.OurClients p{
+    font-size: 18px;
+    font-style: italic;
+    color: #4a4e57 !important;
+}
+
+.OurClients .author{
+    font-size: 18px !important;
+    color:  rgb(13,110,253) !important;
+}
+
+.OurClients .carousel-indicators [data-bs-target]{
+    background-color: rgb(13,110,253);
+}

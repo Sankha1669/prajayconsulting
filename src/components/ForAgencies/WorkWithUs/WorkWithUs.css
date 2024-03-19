@@ -1,0 +1,18 @@
+.WorkWithUs h1{
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.WorkWithUs p{
+    font-size: 17px;
+}
+
+.WorkWithUs .card{
+    background-color: #ff9300;
+}
+
+.WorkWithUs .card:hover{
+    background-color: #0d6efd;
+    transition: .2s ease-in;
+    cursor: pointer;
+}

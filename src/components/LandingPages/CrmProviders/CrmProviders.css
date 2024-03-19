@@ -1,0 +1,14 @@
+.CrmProviders h2{
+    font-size: 40px;
+     color: #000;
+     font-weight: 700;
+}
+
+.CrmProviders .react-multi-carousel-track{
+    align-items: center !important;
+}
+
+.CrmProviders .react-multi-carousel-item{
+    text-align: center !important;
+    width: 300px !important;
+}

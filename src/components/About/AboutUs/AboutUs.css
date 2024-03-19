@@ -1,0 +1,52 @@
+.AboutUs h1{
+    font-size: 54px;
+    font-weight: 700;
+}
+
+
+.AboutUs p{
+    font-size: 18px;
+}
+
+.AboutUsBgImg{
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url(../../../Assets/Images/aboutUsBg.jpg);
+    background-image: linear-gradient(270deg, #ffffff 50%, rgba(255, 255, 255, 0) 100%), url(https://straight-in.co/wp-content/uploads/2021/12/office-workplace-with-coffee-and-laptop-banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-width: 0px 0px 0px 0px;
+    border-color: #e2e2e2;
+    border-style: solid;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 60vh;
+}
+
+.AboutUsBgImg h2{
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.AboutUsBgImg p {
+    color: rgb(112, 112, 112);
+}
+
+.AboutWhatWeDo{
+    background-color: #000000;
+    background-image: url(../../../Assets/Images/aboutLine.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-width: 0px 0px 0px 0px;
+    border-color: #e2e2e2;
+    border-style: solid;
+    background-size: cover;
+    min-height: 50vh;
+}
+
+.AboutWhatWeDo h1{
+    font-size: 54px;
+    font-weight: 700;   
+}

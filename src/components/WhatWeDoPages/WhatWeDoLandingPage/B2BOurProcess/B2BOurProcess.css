@@ -1,0 +1,26 @@
+.B2BOurProcess h2{
+    font-size: 40px;
+    color: #000;
+    font-weight: 700;
+}
+
+.B2BOurProcess p {
+    font-size: 16px;
+    color: #707070;
+}
+.B2BOurProcess .B2BCards{
+    height: 300px !important;
+}
+.B2BOurProcess .B2BCards p{
+    color: #fff;
+}
+
+.B2BOurProcess h3{
+    font-size: 26px;
+}
+
+.B2BOurProcess .card:hover{
+    background-color:#ff9300 !important;
+    transition: .3s ease-in !important;
+    cursor: pointer;
+}
