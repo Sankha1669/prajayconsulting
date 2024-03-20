@@ -1,0 +1,32 @@
+.Testimonials h1 {
+    font-size: 54px;
+    font-weight: 700;
+}
+.TestimonialsCarousal p{
+    font-style: italic;
+}
+
+.TestimonialsCarousal .carousel-indicators{
+    bottom: -40px !important;
+}
+.TestimonialsCarousal .carousel-control-prev-icon{
+    display: none;
+}
+
+.TestimonialsCarousal .carousel-indicators [data-bs-target]{
+    background-color: rgb(13, 110, 253);
+    width: 11px;
+    height: 12px;
+    border: none;
+    border-radius: 29px !important;
+}
+
+.TestimonialsThink h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+}
+
+.TestimonialsThink p{
+    color: rgb(112, 112, 112);
+}
