@@ -10,7 +10,7 @@
   align-items: center;
 }
 
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show,.active .nav-link{
   color: #0d6efd !important;
 }
 
@@ -27,9 +27,9 @@
      justify-content: space-between;
 }
 
-.nav-link:focus{
+/* .nav-link:focus{
   color: #0d6efd !important;
-}
+} */
 
 .nav-link:hover{
     color: #0d6efd !important;

@@ -37,7 +37,7 @@ const Testimonials = () => {
       <section className="py-3 py-sm-5 TestimonialsCarousal">
         <Container>
           <Row>
-            <Col xs={12} sm={12} md={8} lg={8}>
+            <Col xs={12} sm={12} md={12} lg={8}>
               <Carousel>
                 <Carousel.Item>
                   <p>
@@ -221,7 +221,7 @@ const Testimonials = () => {
       <section className="py-3 py-sm-5 bg-dark text-white TestimonialsCarousal">
         <Container>
           <Row>
-            <Col xs={12} sm={12} md={8} lg={8}>
+            <Col xs={12} sm={12} md={12} lg={8}>
               <Carousel>
                 <Carousel.Item>
                   <p>
@@ -401,7 +401,7 @@ const Testimonials = () => {
       <section className="py-3 py-sm-5 TestimonialsThink">
         <Container>
           <Row>
-            <Col xs={12} sm={12} md={5} lg={5}>
+            <Col xs={12} sm={12} md={8} lg={5}>
               <h2>
                 Think StraightIn is Right for{" "}
                 <span className="text-primary">You?</span>

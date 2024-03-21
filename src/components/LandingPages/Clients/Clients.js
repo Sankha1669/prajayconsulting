@@ -1,6 +1,7 @@
 import React from "react";
 import "./Clients.css";
 import { Col, Container, Row } from "react-bootstrap";
+
 import automationPhone from "../../../Assets/Images/automation-phone-1.png";
 
 const Clients = () => {

@@ -1,0 +1,57 @@
+.Careers h1{
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.Careers p{
+    font-size: 18px;
+}
+
+.CareersOpportunities h2{
+    font-size: 40px;
+    color: #000;
+    font-weight: 700;
+}
+
+.CareersOpportunities p{
+    color: rgb(112, 112, 112);
+}
+
+.CareersWorking{
+    background-color:rgba(255, 255, 255, 0);
+    background-image: url(../../../Assets/Images/CarrerBg.jpg);
+    background-image: linear-gradient(270deg, #000000 55%, rgba(255, 255, 255, 0) 100%), url(https://straight-in.co/wp-content/uploads/2021/12/office-desk-with-laptop-computer-supplies-banner-1024x361.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-width: 0px 0px 0px 0px;
+    border-color: #e2e2e2;
+    border-style: solid;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 60vh;
+}
+
+.CareersWorking h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.CareersFit h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.CareersFit .getInTouch{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid;
+    padding: 2px 30px;
+    font-size: 14px;
+}
+
+.CareersFit .getInTouch:hover{
+    background: transparent;
+    color: #0a58ca;
+}
