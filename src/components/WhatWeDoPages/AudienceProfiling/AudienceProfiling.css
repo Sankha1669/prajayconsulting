@@ -1,0 +1,21 @@
+.AudienceProfiling h1{
+    font-size: 54px;
+    color: #000;
+    font-weight: 700;
+    line-height: 59.4px;
+}
+
+.AudienceProfiling p{
+    color: rgb(112, 112, 112);
+}
+
+.AudienceApproach h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.AudienceHowItWorks h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+}

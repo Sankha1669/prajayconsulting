@@ -8,6 +8,7 @@ import ForAgencies from "./components/ForAgencies/ForAgencies";
 import Header from "./components/Header/Header";
 import LandingPages from "./components/LandingPages/LandingPages";
 import Packages from "./components/Packages/Packages";
+import AudienceProfiling from "./components/WhatWeDoPages/AudienceProfiling/AudienceProfiling";
 import ProfileOptimization from "./components/WhatWeDoPages/ProfileOptimization/ProfileOptimization";
 import WhatWeDo from "./components/WhatWeDoPages/WhatWeDoLandingPage/WhatWeDo";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -18,11 +19,16 @@ function App() {
       <Router>
         <Header />
         <Routes>
+          /what-we-do/AudienceProfiling
           <Route exact path="/" element={<LandingPages />} />
           <Route path="/what-we-do" element={<WhatWeDo />} />
           <Route
             path="/what-we-do/profileoptimization"
             element={<ProfileOptimization />}
+          />
+          <Route
+            path="/what-we-do/audienceprofiling"
+            element={<AudienceProfiling />}
           />
           <Route path="/foragencies" element={<ForAgencies />} />
           <Route path="/packages" element={<Packages />} />

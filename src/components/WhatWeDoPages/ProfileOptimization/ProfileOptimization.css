@@ -1,0 +1,52 @@
+.ProfileOptimization h1{
+    font-size: 54px;
+    color: #000;
+    font-weight: 700;
+    line-height: 59.4px;
+}
+
+.ProfileOptimization p{
+    color: rgb(112, 112, 112);
+}
+
+.ProfilApproach h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.ProfileWork h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+}
+
+.ProfileWork p{
+    color: rgb(112, 112, 112);
+}
+
+.ProfileWork p {
+    color: #707070;
+    font-size: 17px;
+}
+
+/* .ProfileWork .cardContainer{
+    height: 380px;
+} */
+
+.ProfileWork .cardContainer p{
+    font-size: 16px;
+}
+
+.ProfileWork .card{
+    background-color: #0d6efd;
+}
+
+.ProfileWork .cardContainer:hover{
+    transform: translateY(-10px);
+    transition: .2s ease-in;
+}
+
+.ProfileChoose h2{
+    font-size: 40px;
+    font-weight: 700;
+}

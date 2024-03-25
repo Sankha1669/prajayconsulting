@@ -67,7 +67,7 @@ const Header = () => {
                 Profile Optimisation
               </NavDropdown.Item>{" "}
               {/* Use Link instead of href */}
-              <NavDropdown.Item as={Link} to="/another-action">
+              <NavDropdown.Item as={Link} to="/what-we-do/audienceprofiling">
                 Target Audience Profiling
               </NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/something">

@@ -7,7 +7,7 @@ const ContactUs = () => {
   return (
     <section className="py-3 py-sm-5 bg-dark text-white ContactUs">
       <Container>
-        <Row>
+        <Row className="align-items-center">
           <Col xs={12} sm={12} md={6} lg={6}>
             <h1>Contact Us</h1>
             <div className="mt-3">

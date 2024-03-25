@@ -2,6 +2,7 @@ import React from "react";
 import "./Footer.css";
 import { Container } from "react-bootstrap";
 import Footerimg from "../../Assets/Images/Footerimg.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -37,8 +38,12 @@ const Footer = () => {
           </div>
           <div className="servicesLinks flex-1 d-flex flex-column gap-1 mb-4 mb-sm-0">
             <h4 className="text-primary mb-4">Serices</h4>
-            <a href="#ProfileOptimisation">Profile Optimisation</a>
-            <a href="#AudienceProfiling">Audience Profiling</a>
+            <a as={Link} to="/what-we-do/profileoptimization">
+              Profile Optimisation
+            </a>
+            <a as={Link} to="/what-we-do/AudienceProfiling">
+              Target Audience Profiling
+            </a>
             <a href="#ConnectionMessages">Connection Messages</a>
             <a href="#ConversationManagement">Conversation Management</a>
             <a href="#ContentMarketing">Content Marketing</a>

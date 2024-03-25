@@ -4,6 +4,7 @@ import { Button, Carousel, Col, Container, Row } from "react-bootstrap";
 
 import testimonials from "../../../Assets/Images/testimonials.png";
 import TrustedBy from "../../LandingPages/TrustedBy/TrustedBy";
+import { Link } from "react-router-dom";
 
 const Testimonials = () => {
   document.title = "Testimonials";
@@ -410,7 +411,12 @@ const Testimonials = () => {
                 Speak to the StraightIn team to learn more about how we can help
                 you.
               </p>
-              <Button variant="primary" className="py-2 px-4">
+              <Button
+                variant="primary"
+                className="py-2 px-4"
+                as={Link}
+                to="/contactus"
+              >
                 Get in Touch
               </Button>
             </Col>
