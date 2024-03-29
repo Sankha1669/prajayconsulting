@@ -1,52 +1,51 @@
-.AudienceProfiling h1{
+.ConnectionMessage h1{
     font-size: 54px;
     color: #000;
     font-weight: 700;
     line-height: 59.4px;
 }
 
-.AudienceProfiling p{
+.ConnectionMessage p{
     color: rgb(112, 112, 112);
 }
 
-.AudienceApproach h2{
+.ConnectionApproach h2{
     font-size: 40px;
     font-weight: 700;
 }
 
-.AudienceHowItWorks h2{
+.ConnectionMessageWork h2{
     font-size: 40px;
     font-weight: 700;
-    color: #000;
 }
 
-.AudienceHowItWorks p{
+.ConnectionMessageWork p{
     color: rgb(112, 112, 112);
 }
 
-.AudienceHowItWorks p {
+.ConnectionMessageWork p {
     color: #707070;
     font-size: 17px;
 }
 
-.AudienceHowItWorks .cardContainer{
-    height: 310px;
-}
+/* .ConnectionMessageWork .cardContainer{
+    height: 380px;
+} */
 
-.AudienceHowItWorks .cardContainer p{
+.ConnectionMessageWork .cardContainer p{
     font-size: 16px;
 }
 
-.AudienceHowItWorks .card{
+.ConnectionMessageWork .card{
     background-color: #0d6efd;
 }
 
-.AudienceHowItWorks .cardContainer:hover{
+.ConnectionMessageWork .cardContainer:hover{
     transform: translateY(-10px);
     transition: .2s ease-in;
 }
 
-.AudienceWhy h2{
+.ConnectionMessageWhy h2{
     font-size: 40px;
     font-weight: 700;
 }

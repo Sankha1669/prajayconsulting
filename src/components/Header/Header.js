@@ -67,10 +67,28 @@ const Header = () => {
                 Profile Optimisation
               </NavDropdown.Item>{" "}
               {/* Use Link instead of href */}
-              <NavDropdown.Item as={Link} to="/what-we-do/audienceprofiling">
+              <NavDropdown.Item
+                as={Link}
+                to="/what-we-do/audienceprofiling"
+                onClick={() => handleSelect("/what-we-do/audienceprofiling")}
+                className={
+                  selectedLink === "/what-we-do/audienceprofiling"
+                    ? "active"
+                    : ""
+                }
+              >
                 Target Audience Profiling
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/something">
+              <NavDropdown.Item
+                as={Link}
+                to="/what-we-do/connectionmessage"
+                onClick={() => handleSelect("/what-we-do/connectionmessage")}
+                className={
+                  selectedLink === "/what-we-do/connectionmessage"
+                    ? "active"
+                    : ""
+                }
+              >
                 Connection Messages
               </NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/something">

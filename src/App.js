@@ -9,6 +9,7 @@ import Header from "./components/Header/Header";
 import LandingPages from "./components/LandingPages/LandingPages";
 import Packages from "./components/Packages/Packages";
 import AudienceProfiling from "./components/WhatWeDoPages/AudienceProfiling/AudienceProfiling";
+import ConnectionMessage from "./components/WhatWeDoPages/ConnectionMessage/ConnectionMessage";
 import ProfileOptimization from "./components/WhatWeDoPages/ProfileOptimization/ProfileOptimization";
 import WhatWeDo from "./components/WhatWeDoPages/WhatWeDoLandingPage/WhatWeDo";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -29,6 +30,10 @@ function App() {
           <Route
             path="/what-we-do/audienceprofiling"
             element={<AudienceProfiling />}
+          />
+          <Route
+            path="/what-we-do/connectionmessage"
+            element={<ConnectionMessage />}
           />
           <Route path="/foragencies" element={<ForAgencies />} />
           <Route path="/packages" element={<Packages />} />

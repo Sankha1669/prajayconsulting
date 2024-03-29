@@ -12,6 +12,7 @@ import research from "../../../Assets/Icons/research.png";
 import { Link } from "react-router-dom";
 
 const ProfileOptimization = () => {
+  document.title = "Profile Optimization";
   return (
     <div>
       <section className="pt-3 pt-sm-5 ProfileOptimization">
