@@ -1,6 +1,6 @@
 import React from "react";
 import "./ConnectionMessage.css";
-import { Card, Col, Container, Row } from "react-bootstrap";
+import { Button, Card, Col, Container, Row } from "react-bootstrap";
 
 import connectionmsg from "../../../Assets/Images/connectionmsg.png";
 import connectionapproach from "../../../Assets/Images/connectionapproach.png";
@@ -9,6 +9,7 @@ import connectionmsgwhy from "../../../Assets/Images/connectionmsgwhy.png";
 import plan from "../../../Assets/Icons/planning.png";
 import position from "../../../Assets/Icons/position.png";
 import purpose from "../../../Assets/Icons/message.png";
+import { Link } from "react-router-dom";
 
 const ConnectionMessage = () => {
   document.title = "Connection Message";
@@ -155,6 +156,35 @@ const ConnectionMessage = () => {
                   you’re here aren’t you?
                 </p>
               </div>
+            </Col>
+          </Row>
+
+          <Row className="py-3 py-sm-5 align-items-center">
+            <Col xs={12} sm={12} md={6} lg={6}>
+              <h2>
+                Have a <span className="text-primary">Question?</span>
+              </h2>
+              <p className="mt-3">
+                Are you looking for a personal, hands on service designed to
+                boost traffic and revenue? From creating the perfect LinkedIn
+                connection message, to writing thought-leading content that gets
+                you noticed, StraightIn has you covered. With us, you aren’t
+                paying for our time, you’re paying for our expertise. We know
+                exactly how to generate leads and increase your reach — and are
+                the only company in the sector with absolutely no automation.
+                Fill in the form and a member of our team will contact you as
+                soon as possible.
+              </p>
+            </Col>
+            <Col xs={12} sm={12} md={6} lg={6} className="text-center">
+              <Button
+                variant="primary"
+                className="py-3 px-5"
+                as={Link}
+                to="/contactus"
+              >
+                Get In Touch
+              </Button>
             </Col>
           </Row>
         </Container>

@@ -187,7 +187,7 @@ const AudienceProfiling = () => {
                 as={Link}
                 to="/contactus"
               >
-                Get in Touch
+                Get In Touch
               </Button>
             </Col>
           </Row>

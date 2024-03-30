@@ -1,0 +1,52 @@
+.ConversationManagement h1{
+    font-size: 54px;
+    color: #000;
+    font-weight: 700;
+    line-height: 59.4px;
+}
+
+.ConversationManagement p{
+    color: rgb(112, 112, 112);
+}
+
+.ConversationManagementApproach h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.ConversationManagementHow h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+}
+
+.ConversationManagementHow p{
+    color: rgb(112, 112, 112);
+}
+.ConversationManagementHow p {
+
+    color: #707070;
+    font-size: 17px;
+}
+/* .ConversationManagementHow .cardContainer{
+
+    height: 380px;
+} */
+.ConversationManagementHow .cardContainer p{
+
+    font-size: 16px;
+}
+.ConversationManagementHow .card{
+
+    background-color: #0d6efd;
+}
+.ConversationManagementHow .cardContainer:hover{
+
+    transform: translateY(-10px);
+    transition: .2s ease-in;
+}
+
+.ConversationManagementWhy h2{
+    font-size: 40px;
+    font-weight: 700;
+}

@@ -91,7 +91,18 @@ const Header = () => {
               >
                 Connection Messages
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/something">
+              <NavDropdown.Item
+                as={Link}
+                to="/what-we-do/conversion-management"
+                onClick={() =>
+                  handleSelect("/what-we-do/conversion-management")
+                }
+                className={
+                  selectedLink === "/what-we-do/conversion-management"
+                    ? "active"
+                    : ""
+                }
+              >
                 Conversation Management{" "}
               </NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/something">

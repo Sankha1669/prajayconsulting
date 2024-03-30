@@ -6,9 +6,8 @@ const Packages = () => {
   document.title = "Packages";
   return (
     <div>
-      {/* <OurPackages />
-      <PackagesPlans /> */}
-      Packages
+      <OurPackages />
+      <PackagesPlans />
     </div>
   );
 };
