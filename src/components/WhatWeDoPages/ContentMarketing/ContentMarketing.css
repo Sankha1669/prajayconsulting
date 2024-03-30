@@ -1,0 +1,47 @@
+.ContentMarketing h1{
+    font-size: 54px;
+    font-weight: 700;
+    color: #000;
+    line-height: 59.4px;
+}
+
+.ContentMarketing p{
+    color: rgb(112, 112, 112);
+}
+
+.ContentMarketingApproach h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.ContentMarketingHow h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+}
+
+.ContentMarketingHow p{
+    color: rgb(112, 112, 112);
+}
+
+/* .ContentMarketingHow .cardContainer{
+    height: 380px;
+} */
+
+.ContentMarketingHow .cardContainer p{
+    font-size: 16px;
+}
+
+.ContentMarketingHow .card{
+    background-color: #0d6efd;
+}
+
+.ContentMarketingHow .cardContainer:hover{
+    transform: translateY(-10px);
+    transition: .2s ease-in;
+}
+
+.ContentMarketingWhy h2{
+    font-size: 40px;
+    font-weight: 700;
+}

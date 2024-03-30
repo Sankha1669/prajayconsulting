@@ -10,6 +10,7 @@ import LandingPages from "./components/LandingPages/LandingPages";
 import Packages from "./components/Packages/Packages";
 import AudienceProfiling from "./components/WhatWeDoPages/AudienceProfiling/AudienceProfiling";
 import ConnectionMessage from "./components/WhatWeDoPages/ConnectionMessage/ConnectionMessage";
+import ContentMarketing from "./components/WhatWeDoPages/ContentMarketing/ContentMarketing";
 import ConversationManagement from "./components/WhatWeDoPages/ConversationManagement/ConversationManagement";
 import ProfileOptimization from "./components/WhatWeDoPages/ProfileOptimization/ProfileOptimization";
 import WhatWeDo from "./components/WhatWeDoPages/WhatWeDoLandingPage/WhatWeDo";
@@ -39,6 +40,10 @@ function App() {
           <Route
             path="/what-we-do/conversion-management"
             element={<ConversationManagement />}
+          />
+          <Route
+            path="/what-we-do/content-marketing"
+            element={<ContentMarketing />}
           />
           <Route path="/foragencies" element={<ForAgencies />} />
           <Route path="/packages" element={<Packages />} />

@@ -105,8 +105,17 @@ const Header = () => {
               >
                 Conversation Management{" "}
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/something">
-                Outreach Marketing
+              <NavDropdown.Item
+                as={Link}
+                to="/what-we-do/content-marketing"
+                onClick={() => handleSelect("/what-we-do/content-marketing")}
+                className={
+                  selectedLink === "/what-we-do/content-marketing"
+                    ? "active"
+                    : ""
+                }
+              >
+                Content Marketing
               </NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/something">
                 LinkedIn Advertising
