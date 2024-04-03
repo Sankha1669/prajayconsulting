@@ -134,10 +134,10 @@ const Header = () => {
               </NavDropdown.Item>
               <NavDropdown.Item
                 as={Link}
-                to="/what-we-do/linkedin-marketing"
-                onClick={() => handleSelect("/what-we-do/linkedin-marketing")}
+                to="/what-we-do/linkedin-advertising"
+                onClick={() => handleSelect("/what-we-do/linkedin-advertising")}
                 className={
-                  selectedLink === "/what-we-do/linkedin-marketing"
+                  selectedLink === "/what-we-do/linkedin-advertising"
                     ? "active"
                     : ""
                 }

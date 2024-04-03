@@ -50,7 +50,9 @@ const Footer = () => {
             </Link>
             <Link to="/what-we-do/content-marketing">Content Marketing</Link>
             <Link to="/what-we-do/outreach-marketing">Outreach Marketing</Link>
-            <Link href="#LinkedInAdvertising">LinkedIn Advertising</Link>
+            <Link to="/what-we-do/linkedin-advertising">
+              LinkedIn Advertising
+            </Link>
           </div>
           <div className="servicesLinks flex-1 d-flex flex-column gap-1 mb-4 mb-sm-0">
             <h4 className="text-primary mb-4">Company</h4>

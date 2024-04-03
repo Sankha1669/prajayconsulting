@@ -12,6 +12,7 @@ import AudienceProfiling from "./components/WhatWeDoPages/AudienceProfiling/Audi
 import ConnectionMessage from "./components/WhatWeDoPages/ConnectionMessage/ConnectionMessage";
 import ContentMarketing from "./components/WhatWeDoPages/ContentMarketing/ContentMarketing";
 import ConversationManagement from "./components/WhatWeDoPages/ConversationManagement/ConversationManagement";
+import LinkedInAdvertising from "./components/WhatWeDoPages/LinkedInAdvertising/LinkedInAdvertising";
 import OutreachMarketing from "./components/WhatWeDoPages/OutreachMarketing/OutreachMarketing";
 import ProfileOptimization from "./components/WhatWeDoPages/ProfileOptimization/ProfileOptimization";
 import WhatWeDo from "./components/WhatWeDoPages/WhatWeDoLandingPage/WhatWeDo";
@@ -49,6 +50,10 @@ function App() {
           <Route
             path="/what-we-do/outreach-marketing"
             element={<OutreachMarketing />}
+          />
+          <Route
+            path="/what-we-do/linkedin-advertising"
+            element={<LinkedInAdvertising />}
           />
           <Route path="/foragencies" element={<ForAgencies />} />
           <Route path="/packages" element={<Packages />} />

@@ -1,0 +1,72 @@
+.LinkedInAdvertising h1{
+    font-size: 54px;
+    font-weight: 700;
+    color: #000;
+    line-height: 59.4px;
+}
+
+.LinkedInAdvertising p{
+    color: rgb(112, 112, 112);
+}
+
+.LinkedInAdvertisingApproach h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+.LinkedInAdvertisingHow h2{
+    font-size: 40px;
+     font-weight: 700;
+     color: #000;
+}
+
+.LinkedInAdvertisingHow p{
+    color: rgb(112, 112, 112);
+}
+
+.LinkedInAdvertisingHow .cardContainer{
+    height: 330px;
+}
+
+.LinkedInAdvertisingHow .cardContainer p{
+    font-size: 16px;
+}
+
+.LinkedInAdvertisingHow .card{
+    background-color: #0d6efd;
+}
+
+.LinkedInAdvertisingHow .cardContainer:hover{
+    transform: translateY(-10px);
+    transition: .2s ease-in;
+}
+
+.LinkedInAdvertisingType h2{
+    font-size: 40px !important;
+    font-weight: 700 !important;
+    color: #fff;
+}
+
+.LinkedInAdvertisingType p{
+    color: #fff;
+}
+
+.LinkedInAdvertisingType .addCard{
+    background-color: #363636 !important ;
+    height: 385px !important;
+}
+
+.LinkedInAdvertisingType .addCard p{
+    color: #fff !important;
+}
+
+.LinkedInAdvertisingWhy h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+}
+
+.LinkedInAdvertisingWhy p{
+    color: rgb(112, 112, 112);
+}
