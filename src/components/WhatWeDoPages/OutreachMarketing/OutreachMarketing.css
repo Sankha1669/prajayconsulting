@@ -1,0 +1,41 @@
+.OutreachMarketing h1{
+    font-size: 54px;
+    font-weight: 700;
+    color: #000;
+    line-height: 59.4px;
+}
+
+.OutreachMarketing p{
+    color: rgb(112, 112, 112);
+}
+
+.OutreachMarketingApproach h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.OutreachMarketingHow p{
+    color: rgb(112, 112, 112);
+}
+
+/* .OutreachMarketingHow .cardContainer{
+    height: 380px;
+} */
+
+.OutreachMarketingHow .cardContainer p{
+    font-size: 16px;
+}
+
+.OutreachMarketingHow .card{
+    background-color: #0d6efd;
+}
+
+.OutreachMarketingHow .cardContainer:hover{
+    transform: translateY(-10px);
+    transition: .2s ease-in;
+}
+
+.OutreachMarketingWhy h2{
+    font-size: 40px;
+    font-weight: 700;
+}

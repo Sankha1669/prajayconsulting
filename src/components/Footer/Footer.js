@@ -11,17 +11,17 @@ const Footer = () => {
         <div className="d-flex flex-column flex-sm-row">
           <div className="flex-1 mb-2">
             <h4>PrajayConsulting</h4>
-            <div className="d-flex gap-3 mt-2 mt-sm-4">
-              <a className="#facebook">
+            <div className="d-flex gap-3 mt-2 mt-sm-4 socialLinks">
+              <a href="#facebook">
                 <i className="bi bi-facebook"></i>
               </a>
-              <a className="#twitter">
+              <a href="#twitter">
                 <i className="bi bi-twitter"></i>
               </a>
-              <a className="#instagram">
+              <a href="#instagram">
                 <i className="bi bi-instagram"></i>
               </a>
-              <a className="#linkedin">
+              <a href="#linkedin">
                 <i className="bi bi-linkedin"></i>
               </a>
             </div>
@@ -44,19 +44,21 @@ const Footer = () => {
             <Link to="/what-we-do/audienceprofiling">
               Target Audience Profiling
             </Link>
-            <a href="#ConnectionMessages">Connection Messages</a>
-            <a href="#ConversationManagement">Conversation Management</a>
-            <a href="#ContentMarketing">Content Marketing</a>
-            <a href="#OutreachMarketing">Outreach Marketing</a>
-            <a href="#LinkedInAdvertising">LinkedIn Advertising</a>
+            <Link to="/what-we-do/connectionmessage">Connection Messages</Link>
+            <Link to="/what-we-do/conversion-management">
+              Conversation Management
+            </Link>
+            <Link to="/what-we-do/content-marketing">Content Marketing</Link>
+            <Link to="/what-we-do/outreach-marketing">Outreach Marketing</Link>
+            <Link href="#LinkedInAdvertising">LinkedIn Advertising</Link>
           </div>
           <div className="servicesLinks flex-1 d-flex flex-column gap-1 mb-4 mb-sm-0">
             <h4 className="text-primary mb-4">Company</h4>
-            <a href="#Packages ">Packages</a>
-            <a href="#AboutUs">About Us</a>
-            <a href="#Testimonials ">Testimonials </a>
-            <a href="#Blog">Blog</a>
-            <a href="#Careers">Careers</a>
+            <Link to="/packages">Packages</Link>
+            <Link to="/about">About Us</Link>
+            <Link to="/about/testimonials">Testimonials </Link>
+            <Link to="/blog">Blog</Link>
+            <Link to="/about/careers">Careers</Link>
           </div>
           <div className="servicesLinks flex-1 d-flex flex-column gap-1 mb-4 mb-sm-0">
             <h4 className="text-primary mb-4">Contact</h4>
@@ -68,9 +70,9 @@ const Footer = () => {
               <a href="mailto:grow@straight-in.co.uk">grow@straight-in.co.uk</a>
             </div>
             <div className="mt-3 mb-2">
-              <a href="#gettouch" className="coloredLinks">
+              <Link to="/contactus" className="coloredLinks">
                 Get In Touch
-              </a>{" "}
+              </Link>{" "}
               |{" "}
               <a href="#AboutUs" className="coloredLinks">
                 FAQ

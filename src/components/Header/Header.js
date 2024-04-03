@@ -3,6 +3,8 @@ import { Container, Nav, Navbar, Button, NavDropdown } from "react-bootstrap";
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
 import "./Header.css";
 
+import Logo from "../../Assets/Logo.png";
+
 const Header = () => {
   const [show, setShow] = useState(false);
   const showDropdown = (e) => {
@@ -34,6 +36,7 @@ const Header = () => {
       <Container>
         <Navbar.Brand as={Link} to="/">
           PrajayConsulting
+          {/* <img src={Logo} alt="PrajayCosulting" className="img-fluid" /> */}
         </Navbar.Brand>{" "}
         {/* Use Link instead of href */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -117,11 +120,29 @@ const Header = () => {
               >
                 Content Marketing
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/something">
-                LinkedIn Advertising
+              <NavDropdown.Item
+                as={Link}
+                to="/what-we-do/outreach-marketing"
+                onClick={() => handleSelect("/what-we-do/outreach-marketing")}
+                className={
+                  selectedLink === "/what-we-do/outreach-marketing"
+                    ? "active"
+                    : ""
+                }
+              >
+                Outreach Marketing
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/something">
-                Content Marketing
+              <NavDropdown.Item
+                as={Link}
+                to="/what-we-do/linkedin-marketing"
+                onClick={() => handleSelect("/what-we-do/linkedin-marketing")}
+                className={
+                  selectedLink === "/what-we-do/linkedin-marketing"
+                    ? "active"
+                    : ""
+                }
+              >
+                LinkedIn Advertising
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link
